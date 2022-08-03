@@ -1,0 +1,20 @@
+query Episodes {
+    episodes {
+        results {
+            id
+            name
+        }
+    }
+}
+
+query Characters {
+    characters{
+        results{
+            created
+            id
+        }
+    }
+}
+
+
+
